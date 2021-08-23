@@ -52,11 +52,11 @@
 
 // n! = n*(n-1)!
 
-function getFactorial(n){
+function Factorial(n){
     if(n == 1){
         return 1;
     }
-   return n * getFactorial(n-1);
+   return n * Factorial(n-1);
 }
-const fact = getFactorial(4);
+const fact = Factorial(4);
 console.log(fact);
